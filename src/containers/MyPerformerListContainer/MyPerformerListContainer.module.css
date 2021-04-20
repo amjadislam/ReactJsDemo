@@ -1,0 +1,31 @@
+.performerListWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+.listHeading {
+  font-style: normal;
+  font-size: 14px;
+  color: #000000;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.ButtonText {
+  font-weight: normal;
+  font-size: 14px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 151px;
+  height: 40px;
+  color: #ffffff;
+  border-radius: 8px;
+  letter-spacing: 0.5px;
+}
+.ButtonText svg {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 5px;
+}

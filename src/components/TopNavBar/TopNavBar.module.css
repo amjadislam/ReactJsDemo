@@ -1,0 +1,232 @@
+.header {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 15px 30px;
+  align-items: center;
+}
+
+.header h1 {
+  font-weight: bold;
+  font-size: 24px;
+  color: #000;
+  margin-bottom: 0;
+}
+.header h1 > span {
+  display: inline-block;
+  font-weight: bold;
+  color: #49d360;
+}
+.customSearchbar {
+  max-width: 300px;
+  width: 100%;
+  border-radius: 20px;
+  padding-left: 35px;
+  outline: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  border: 1px solid #bdbdbd;
+  height: 40px;
+  font-size: 16px;
+}
+.customSearchbar::placeholder {
+  font-size: 16px;
+  color: #e0e0e0;
+}
+.searchIcon {
+  position: absolute;
+  top: 12px;
+  left: 15px;
+  font-size: 16px;
+  color: #828282;
+}
+.bellIcon {
+  font-size: 18px;
+  color: #92929d;
+}
+.notificationCounter {
+  position: absolute;
+  top: -3px;
+  background-color: #4b4d67;
+  border-radius: 50%;
+  right: 0px;
+  width: 8px;
+  height: 8px;
+}
+.profileWrapper {
+  max-width: 55px;
+  width: 100%;
+}
+.profilePicture {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.profileListing {
+  position: absolute;
+  top: 62px;
+  width: 300px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  right: 0;
+  background-color: #ffffff;
+  z-index: 2;
+  padding-left: 8px;
+  padding-right: 8px;
+  border: 2px solid #e4f0fc;
+}
+.profileListing::before {
+  position: absolute;
+  content: '';
+  right: 0px;
+  top: 3px;
+  width: 0;
+  height: 0;
+  box-sizing: border-box;
+  border: 8px solid #fff;
+  border-color: transparent transparent #fff #fff;
+  transform-origin: 0 0;
+  transform: rotate(135deg);
+  box-shadow: -4px 4px 4px 0px #e0e9f1;
+}
+.profileHeader {
+  padding: 15px;
+  border-bottom: 2px solid #e4f0fc;
+}
+.profileHeader h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #4b4d67;
+  text-align: center;
+  margin-bottom: 0;
+}
+.profileBody ul {
+  margin: 0;
+  padding: 20px 25px;
+}
+.profileBody ul li {
+  list-style: none;
+  padding-bottom: 20px;
+  transition: all 0.3s ease-in;
+}
+.profileBody ul li:hover {
+  padding-left: 5px;
+  transition: all 0.3s ease-in;
+}
+.profileBody ul li:last-child {
+  padding-bottom: 0;
+}
+.profileBody ul li a {
+  display: block;
+  color: #4b4d67;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  line-height: 1;
+}
+.profileBody ul li svg {
+  margin-right: 10px;
+  font-size: 18px;
+}
+.profileBody img {
+  width: 18px;
+  height: 18px;
+  border-radius: 0;
+  margin-right: 20px;
+}
+.profileBgColor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  cursor: default;
+}
+
+.notificationWrapper {
+  max-width: 55px;
+  width: 100%;
+}
+
+.notificationListing {
+  position: absolute;
+  top: 62px;
+  width: 350px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  right: 0;
+  background-color: #ffffff;
+  z-index: 2;
+  border: 2px solid #e4f0fc;
+}
+
+.notificationItemWrapper{
+  /*background: rgba(75, 77, 103, 0.1);*/
+  border-bottom: 2px solid #F1F1F5;
+}
+
+.notificationBody ul {
+  margin: 0;
+  padding: 13px 10px;
+}
+.notificationBody ul li {
+  list-style: none;
+  padding-bottom: 20px;
+  transition: all 0.3s ease-in;
+}
+.notificationBody ul li:hover {
+  padding-left: 5px;
+  transition: all 0.3s ease-in;
+}
+.notificationBody ul li:last-child {
+  padding-bottom: 0;
+}
+.notificationBody ul li a {
+  display: block;
+  color: #4b4d67;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  line-height: 1;
+}
+.notificationBody ul li svg {
+  margin-right: 10px;
+  font-size: 18px;
+}
+.notificationBody img {
+  width: 18px;
+  height: 18px;
+  border-radius: 0;
+  margin: 12px 16px 23px 15px;
+}
+
+.notificationTitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.1px;
+  color: #44444F;
+}
+
+.notificationDesc {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #92929D;
+  display: inline-block;
+  width: 215px;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+.arrowDown {
+  width: 12px;
+  height: 24px;
+}

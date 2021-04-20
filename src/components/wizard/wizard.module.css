@@ -1,0 +1,66 @@
+.wizardWrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*** stepper styles ***/
+.wizardStepper {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 0;
+}
+
+.wizardBox {
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  position: relative;
+  background-color: transparent;
+  z-index: 2;
+}
+.stepperContent {
+  background-color: #ffffff !important;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  line-height: 10px;
+  border-radius: 50%;
+  margin-bottom: 0;
+}
+.stepperStep.isActive .wizardBox {
+  box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.05);
+  background-color: #49d360;
+}
+.stepperStep {
+  position: relative;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.stepperStep::after {
+  z-index: 0;
+  width: 100%;
+  flex: 1;
+  height: 1px;
+  background: #ffffff;
+  content: '';
+  left: 100%;
+  top: 50%;
+}
+.stepperStep.isComplete::after {
+  background: #ffffff;
+}
+.stepperStep:last-of-type::after {
+  display: none;
+}
+.stepperStep:last-child {
+  width: 40px;
+  height: 40px;
+}

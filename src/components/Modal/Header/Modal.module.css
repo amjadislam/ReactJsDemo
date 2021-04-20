@@ -1,0 +1,29 @@
+.modalHeader {
+  display: flex;
+  align-items: center;
+  height: 75px;
+  background: #f2f2f2;
+  border-radius: 10px 10px 0px 0px;
+  padding: 0 30px;
+  position: relative;
+}
+
+.modelCloseIcon {
+  position: absolute;
+  right: 30px;
+}
+.modelCloseIcon svg {
+  color: #eb5757;
+  font-size: 24px;
+  font-weight: normal;
+}
+.movieIcon {
+  font-size: 24px;
+  color: #4b4d67;
+  font-weight: normal;
+}
+.headerTitle {
+  font-size: 24px;
+  color: #4b4d67;
+  font-weight: normal;
+}

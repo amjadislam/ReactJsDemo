@@ -1,0 +1,25 @@
+.MainWrapper {
+    padding: 0 30px 67px;
+}
+
+.BasicInfoWrapper {
+    padding: 43px 0
+}
+
+.ImageWrapper {
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10px 0;
+    margin-bottom: 40px;
+}
+
+.SkillWrapper {
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10px 0;
+    margin-bottom: 40px;
+}

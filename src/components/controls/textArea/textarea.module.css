@@ -1,0 +1,35 @@
+.customTextarea textarea {
+  width: 100%;
+  font-size: 14px;
+  padding: 10px;
+  display: block;
+  border: 1px solid #e2e2ea;
+  border-radius: 10px;
+  color: #44444f;
+  text-align: left;
+}
+.customTextarea textarea:focus {
+  border-color: #49d360;
+  box-shadow: none;
+  outline: none;
+}
+.formGroup {
+  margin-bottom: 20px;
+}
+.customTextarea span {
+  width: 100%;
+  color: #44444f;
+  letter-spacing: 0.1px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.errorMessage {
+  text-align: left;
+  display: inline-block;
+  width: 100%;
+  color: red;
+  padding-left: 15px;
+  padding-top: 5px;
+  font-size: 14px;
+}

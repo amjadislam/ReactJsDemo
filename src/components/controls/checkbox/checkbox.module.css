@@ -1,0 +1,8 @@
+.customCheckBoxWrapper label {
+  font-size: 14px;
+  color: #696974;
+}
+.customControlInput:checked ~ .customControlLabel::before {
+  border-color: #49d360;
+  background-color: #49d360;
+}

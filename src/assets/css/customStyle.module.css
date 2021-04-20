@@ -1,0 +1,24 @@
+.customBtnLabel {
+  font-size: 14px;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+}
+.customBtnLabel svg {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+.roleListBtn {
+  width: 200px;
+  height: 50px;
+}
+.secondaryColor {
+  background-color: #696974 !important;
+}
+
+.noLabel {
+  opacity: 0;
+}

@@ -1,0 +1,16 @@
+.mainWrapper {
+  background-color: #E5E5E5;
+}
+
+.TopNavWrapper {
+  background-color: #FFFFFF;
+}
+
+.bodyWrapper {
+  max-width: 1540px;
+  width: 100%;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 6px rgba(56, 46, 70, 0.08);
+  border-radius: 10px;
+  margin: 43px 30px 30px 28px;
+}

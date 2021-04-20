@@ -1,0 +1,24 @@
+.landingMainLayout {
+  display: flex;
+  justify-content: space-between;
+}
+.ladingLeftSide {
+  flex: 0 0 300px;
+  max-width: 300px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.landingRightSide {
+  flex: 0 0 calc(100% - 316px);
+  max-width: calc(100% - 316px);
+  width: 100%;
+  margin-top: 30px;
+}
+.landingRightSideInner {
+  background-color: #f2f2f2;
+  border-radius: 10px 10px 0px 0px;
+}
+.landingRightSidePerformer {
+  background-color: transparent;
+}

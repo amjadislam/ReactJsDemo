@@ -1,0 +1,121 @@
+.positionRelative {
+  position: relative;
+}
+.inputWrapper.inputGroup {
+  position: relative;
+  margin: 0px 0 20px;
+}
+
+.inputWrapper input {
+  font-size: 14px;
+  padding: 10px 15px 10px 15px;
+  display: block;
+  width: 100%;
+  border: 1px solid #e2e2ea;
+  border-radius: 10px;
+  height: 48px;
+  line-height: 48px !important;
+  color: #44444f;
+}
+
+.inputWrapper input:focus {
+  outline: none;
+}
+
+.inputWrapper span {
+  color: #b5b5be;
+  letter-spacing: 0.1px;
+  font-size: 14px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 15px;
+  top: 15px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+  margin-bottom: 0 !important;
+  line-height: 1;
+}
+
+.inputWrapper input:focus ~ span,
+.inputWrapper input:valid ~ span {
+  top: -7px;
+  font-size: 14px;
+  color: #49d360;
+  background-color: #ffffff;
+  padding: 0 10px;
+}
+.inputWrapper input:focus {
+  border-color: #49d360;
+}
+
+/* animations */
+@-webkit-keyframes inputHighlighter {
+  from {
+    background: #4285f4;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+@-moz-keyframes inputHighlighter {
+  from {
+    background: #4285f4;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+@keyframes inputHighlighter {
+  from {
+    background: #4285f4;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+
+.inputWrapper svg {
+  position: absolute;
+  right: 15px;
+  top: 16px;
+  font-size: 14px;
+  color: #979797;
+  cursor: pointer;
+}
+.passwordInput {
+  padding-right: 30px !important;
+}
+
+.errorMessage {
+  text-align: left;
+  display: inline-block;
+  width: 100%;
+  color: red;
+  padding-left: 15px;
+  padding-top: 5px;
+  font-size: 14px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+@media only screen and (max-width: 991px) {
+  .inputWrapper input:focus ~ span,
+  .inputWrapper input:valid ~ span {
+    top: -12px;
+    background-color: #e5e5e5;
+  }
+}

@@ -1,0 +1,28 @@
+.dateBoxWrapper {
+    width: 40px;
+    height: 40px;
+    background: #F2F2F2;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.dateBoxWrapper h6 {
+    font-size: 12px;
+    font-weight: 600;
+    color: #000;
+    letter-spacing: 1px;
+}
+.dateBoxWrapper p {
+    font-size: 10px;
+    font-weight: 500;
+    color: #828282;
+    line-height: 18px;
+}
+
+.dateBoxPopupWrapper {
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 18px;
+}

@@ -1,0 +1,126 @@
+.mainWrapper {
+ width: 100%;
+ max-width: 1295px;
+ padding: 20px 40px;
+}
+
+.itemMainWrapper {
+ width: 100%;
+ max-width: 1215px;
+ background: #F2F2F2;
+ border-radius: 5px 5px 0 0;
+ padding: 17px 0 12px 20px;
+}
+
+.itemMainWrapper p {
+ width: 100%;
+ max-width: calc(100% / 4);
+}
+
+.itemDate {
+ font-style: normal;
+ font-weight: 500;
+ font-size: 15px;
+ line-height: 18px;
+ display: flex;
+ align-items: center;
+ color: #828282;
+ opacity: 0.8;
+}
+
+.itemShowName {
+ font-style: normal;
+ font-weight: 500;
+ font-size: 15px;
+ line-height: 18px;
+ display: flex;
+ align-items: center;
+ color: #828282;
+ opacity: 0.8;
+}
+
+.itemRole {
+ font-style: normal;
+ font-weight: 600;
+ font-size: 15px;
+ line-height: 18px;
+ display: flex;
+ align-items: center;
+ text-align: center;
+ color: #4B4D67;
+ opacity: 0.8;
+}
+
+.itemIcons {
+ padding: 0 12px 0 0;
+}
+
+.itemIcons svg {
+ color: #4B4D67;
+ margin-left: 32px;
+}
+
+.itemExpendedWrapper {
+ width: 1215px;
+ background: #FFFFFF;
+ box-shadow: 4px 4px 10px rgba(69, 69, 69, 0.2);
+ border-radius: 0 0 5px 5px;
+}
+
+.detailText {
+ padding: 10px 10px 7px 21px;
+ display: flex;
+ align-items: baseline;
+ border-right: 1px solid #E0E0E0;
+}
+
+.dollarSign {
+ color: #49D360;
+ margin: 0 5px;
+}
+
+.price {
+ color: #49D360;
+ font-size: 40px;
+ line-height: 40px;
+}
+
+.voucherLink {
+ font-style: normal;
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 17px;
+ display: flex;
+ align-items: center;
+ text-decoration-line: underline;
+ color: #4B4D67;
+ padding: 24px 0 21px 30px;
+}
+
+.buttonWrapper {
+ padding: 13px 9px 9px 0;
+}
+
+.changeButton {
+ background: #FF0000 !important;
+ border-radius: 8px;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 14px;
+ line-height: 15px;
+ align-items: center;
+ text-align: center;
+ color: #FFFFFF;
+}
+
+.confirmButton {
+ background: #49D360 !important;
+ border-radius: 8px;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 14px;
+ line-height: 15px;
+ align-items: center;
+ text-align: center;
+ color: #FFFFFF;
+}

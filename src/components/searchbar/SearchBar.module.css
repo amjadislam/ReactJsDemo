@@ -1,0 +1,34 @@
+.customInput {
+  width: 100%;
+  height: 48px;
+  line-height: 48px;
+  border: 1px solid #e2e2ea;
+  border-radius: 10px;
+  color: #44444f;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 15px 30px;
+}
+.customInput:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #49d360;
+}
+.customInput::placeholder {
+  color: #b5b5be;
+  font-size: 14px;
+}
+.searchIcon {
+  position: absolute;
+  left: 10px;
+  top: 17px;
+  color: #b5b5be;
+  font-size: 14px;
+}
+.angleDownIcon {
+  position: absolute;
+  right: 15px;
+  top: 17px;
+  color: #b5b5be;
+  font-size: 14px;
+}

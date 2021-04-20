@@ -1,0 +1,11 @@
+.multiSelectWrapper {
+  max-width: 300px;
+  width: 300px;
+  display: grid;
+  margin: 0 -12px;
+}
+.searchAddList input{
+  box-shadow: none;
+  border-bottom: 2px solid #E4F0FC;
+  border-radius: 0;
+}

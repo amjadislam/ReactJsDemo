@@ -1,0 +1,39 @@
+.itemWrapper {
+  height: 70px;
+  border-radius: 5px;
+  background: #fff;
+  margin: 10px 5px 15px;
+  cursor: pointer;
+  text-align: center;
+  padding: 12px 5px 5px;
+  border: 2px solid transparent;
+  position: relative;
+}
+
+.itemWrapper.border {
+  border: 2px solid #4b4d67;
+}
+.itemWrapper.border::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -16px;
+  border-top: 14px solid #4b4d67;
+  border-right: 14px solid transparent;
+  border-left: 14px solid transparent;
+  height: 0;
+  width: 0;
+}
+.itemWrapper h5 {
+  margin-bottom: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #828282;
+}
+.itemWrapper h6 {
+  margin-bottom: 0;
+  background-color: #f2f2f2;
+  font-size: 16px;
+  color: #828282;
+}

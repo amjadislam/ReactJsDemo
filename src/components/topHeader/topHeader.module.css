@@ -1,0 +1,20 @@
+header {
+    height: 70px;
+}
+.topHeading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+header h1 {
+    font-weight: bold;
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 0;
+}
+header h1 > span {
+    display: inline-block;
+    font-weight: bold;
+    color: #49D360;
+}

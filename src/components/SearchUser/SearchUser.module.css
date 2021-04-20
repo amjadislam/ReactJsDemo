@@ -1,0 +1,11 @@
+.searchWrapper {
+  padding: 10px;
+  width: 250px;
+  height: 200px;
+  overflow-y: scroll;
+  z-index: 12;
+  background-color: #ffffff;
+  box-shadow: 3px 0 5px 1px #cdcdd4;
+  border-radius: 20px;
+  position: absolute;
+}

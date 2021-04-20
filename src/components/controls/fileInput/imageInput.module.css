@@ -1,0 +1,93 @@
+.imgContainer {
+  height: 200px;
+  width: 200px;
+  border: 1px dashed #e2e2ea;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  margin-bottom: 30px;
+  position: relative;
+  background: #ffffff;
+}
+
+.imgPlaceHolder {
+  position: absolute;
+  left: 28.4%;
+  right: 71.6%;
+  top: 24.5%;
+  bottom: 42.5%;
+}
+
+.imgView {
+  height: 200px;
+  width: 200px;
+  border: 1px dashed #e2e2ea;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.displayNone {
+  display: none;
+}
+
+.imageUploadIcon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  left: auto;
+  right: 5%;
+  bottom: 5%;
+  cursor: pointer;
+  background: #4b4d67;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageUploadIcon img {
+  width: 18px;
+}
+
+.fileInputWrapper {
+  text-align: left;
+}
+
+.fileInputWrapper p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #44444f;
+}
+.fileInputWrapper label {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.1px;
+  color: #44444f;
+}
+.FileUploadInput {
+  font-size: 14px;
+  color: #44444f;
+  position: relative;
+  border-radius: 10px;
+  border: none;
+}
+.fileInputWrapper button {
+  height: 40px;
+  background-color: #4b4d67;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 14px;
+}
+.fileInputWrapper button:hover,
+.fileInputWrapper button:focus {
+  background-color: #4b4d67;
+  box-shadow: none;
+  outline: none;
+}
+.fileInputWrapper span {
+  letter-spacing: 0.1px;
+  font-size: 14px;
+  color: #44444f;
+}

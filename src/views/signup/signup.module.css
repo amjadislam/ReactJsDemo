@@ -1,0 +1,55 @@
+.signUpWrapper {
+  max-width: 560px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #ffffff;
+  box-shadow: 3px 0 5px 1px #cdcdd4;
+  border-radius: 20px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -35%);
+}
+.marginBottomZero {
+  margin-bottom: 0;
+}
+.cookieText {
+  color: #49d360;
+  cursor: pointer;
+  font-size: 14px;
+}
+.noTextDesktop {
+  display: none;
+}
+.BgPerformerPage {
+  top: 100%;
+  transform: translate(-50%, -25%);
+}
+.bgCoordinatorPage {
+  top: 100%;
+  transform: translate(-50%, -45%);
+}
+
+/*BreakPoints for Responsiveness*/
+@media only screen and (max-width: 991px) {
+  .signUpWrapper {
+    width: 100%;
+    position: absolute;
+    box-shadow: none;
+    padding: 20px 15px;
+    border-radius: 0;
+    top: 0;
+    background-color: #e5e5e5;
+    min-height: 100%;
+    margin-top: 70px;
+    transform: translate(-50%, 0%);
+  }
+  .noTextDesktop {
+    display: block;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+    color: #4b4d67 !important;
+    line-height: 26px;
+  }
+}

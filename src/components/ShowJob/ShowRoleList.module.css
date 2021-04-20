@@ -1,0 +1,27 @@
+.roleItem {
+  width: 100%;
+  height: 50px;
+  background: #f2f2f2;
+  border-bottom: 1px solid #e0e0e0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: #828282;
+  padding: 15px;
+}
+.roleItem:focus {
+  outline: none;
+}
+.selectedRoleItem {
+  background: #fff;
+  color: #4b4d67;
+  transition: all 0.3s ease-in-out;
+}
+
+.newRoleButton {
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}

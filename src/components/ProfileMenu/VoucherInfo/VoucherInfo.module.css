@@ -1,0 +1,19 @@
+.mainWrapper{
+    padding: 43px 30px;
+    max-width: 938px;
+    width: 100%;
+}
+
+.inputFields {
+    margin-top: 19px;
+}
+
+.input {
+    width: 100%;
+    flex: 0 0 calc(50% - 30px);
+}
+
+.saveButton{
+    background: #49D360 !important;
+    border-radius: 8px;
+}

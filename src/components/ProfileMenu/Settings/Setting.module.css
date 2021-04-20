@@ -1,0 +1,111 @@
+.settingWrapper {
+    width: 100%;
+}
+
+.passwordWrapper{
+    padding: 20px 97px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.password {
+  margin-top: 19px;
+}
+
+.input {
+    margin-right: 20px;
+}
+
+.settingHeading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #3C3F41;
+    padding-left: 1px;
+}
+
+.passwordButton{
+    background-color: #4B4D67 !important;
+    border: 1px solid rgba(169, 183, 199, 0.2);
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.profileWrapper{
+    padding: 20px 97px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.profileDetailTitle {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #BDBDBD;
+}
+
+.profileDetailDesc {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: #3C3F41;
+    margin-left: 17px;
+}
+
+.profileCEdit {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3C3F41;
+}
+
+.purchaseHistory {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #3C3F41;
+}
+
+.purchaseHistory a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #49D360;
+}
+
+.saveButton {
+    background: #49D360;
+    border: 1px solid rgba(169, 183, 199, 0.2);
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.accountWrapper{
+    padding: 40px 56px 39px 100px;
+}
+
+.accountHeading {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FF0510;
+}
+
+.accountDetail {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3C3F41;
+}
+
+.deleteButton{
+    background: #EB5757 !important;
+    border-radius: 8px !important;
+}

@@ -1,0 +1,35 @@
+.imageUploaderWrapper {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  background-color: #ffffff;
+  border: 1px dashed #e2e2ea;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.imageUploaderWrapper .inputFile {
+  position: absolute;
+  bottom: 15px;
+  width: 40px;
+  height: 40px;
+  background-color: #4b4d67;
+  right: 15px;
+  border-radius: 50%;
+}
+.imageUploaderWrapper .inputFile svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  fill: #fff;
+  width: 18px;
+  height: 18px;
+}
+.inputFile input[type='file'] {
+  opacity: 0;
+}
+.imageUploaderWrapper img {
+  width: 100%;
+  object-fit: cover;
+}

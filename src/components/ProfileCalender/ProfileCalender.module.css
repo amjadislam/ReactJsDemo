@@ -1,0 +1,34 @@
+.calenderBox {
+  padding: 0 15px;
+  position: relative;
+  line-height: 1;
+  height: 33px;
+  text-align: center;
+}
+
+.calenderBox:after {
+  content: '';
+  position: absolute;
+  bottom: -7px;
+  width: 100%;
+  height: 4px;
+  border-radius: 10px 10px 0 0;
+  background-color: #c4c4c4;
+  left: 0;
+}
+
+.monthTitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 16px;
+  align-items: center;
+  text-align: center;
+  color: #828282;
+  margin-bottom: 0;
+}
+
+.monthDate {
+  margin-bottom: 0 !important;
+  font-size: 14px;
+}

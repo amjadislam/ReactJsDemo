@@ -1,0 +1,90 @@
+.mT20 {
+  margin-top: 20px;
+}
+.backgroundWrapper {
+  background-image: url('../../assets/images/shape-280.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  height: 345px;
+  text-align: center;
+}
+.loginWrapper {
+  max-width: 560px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #ffffff;
+  box-shadow: 3px 0 5px 1px #cdcdd4;
+  border-radius: 20px;
+  position: absolute;
+  top: 94%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.forgetPassword {
+  display: inline-block;
+  color: #49d360;
+  font-size: 14px;
+  letter-spacing: 0.1px;
+}
+.backgroundWrapper h1 {
+  font-weight: bold;
+  font-size: 56px;
+  color: #ffffff;
+  margin-bottom: 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.backgroundWrapper h1 > span {
+  display: inline-block;
+  font-weight: bold;
+  color: #49d360;
+}
+
+@media only screen and (max-width: 991px) {
+  body {
+    background-color: #e5e5e5;
+  }
+  header {
+    height: 55px;
+    background-color: #ffffff;
+  }
+  header h1 {
+    font-size: 18px;
+  }
+  .backgroundWrapper {
+    background-image: none;
+    background-color: #4b4d67;
+    height: 70px;
+  }
+  .backgroundWrapper h1 {
+    font-size: 24px;
+    top: 50%;
+    width: 100%;
+  }
+  .loginWrapper {
+    position: absolute;
+    box-shadow: none;
+    padding: 20px 15px;
+    border-radius: 0;
+    top: 0;
+    background-color: #e5e5e5;
+    min-height: 100%;
+    margin-top: 70px;
+    transform: translate(-50%, 0%);
+  }
+}
+
+.errorMessage {
+  text-align: left;
+  display: inline-block;
+  width: 100%;
+  color: red;
+  padding-left: 15px;
+  padding-top: 5px;
+  font-size: 14px;
+}

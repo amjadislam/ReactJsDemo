@@ -1,0 +1,73 @@
+.mainWrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background: #ffffff;
+  box-shadow: 0px 2px 6px rgba(56, 46, 70, 0.08);
+  border-radius: 10px;
+}
+
+.leftRightIconPadding {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.leftRightIconPadding svg {
+  color: #4b4d67;
+  opacity: 0.5;
+  font-size: 18px;
+  font-weight: 400;
+}
+.pr5 {
+  padding-right: 5px;
+}
+
+.navItemContainer {
+  flex: 0 0 93%;
+  max-width: 93%;
+  margin: 0 auto;
+  padding-left: 5px;
+  width: 100%;
+}
+
+.navItem {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+  border-right: 1px solid #e0e0e0;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+.navItemSelected {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  background-color: #4b4d67;
+  color: #fff;
+  cursor: pointer;
+  border-right: 1px solid #e0e0e0;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  outline: none;
+}
+.navItemSelected:focus, .navItem:focus {
+  outline: none;
+}
+
+.plusItemBtn {
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  max-width: 40px;
+}
+.plusItemBtn svg {
+  font-size: 18px;
+}
+.mainContentWrapper {
+  position: relative;
+}

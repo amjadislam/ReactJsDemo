@@ -1,0 +1,5 @@
+.padding15 {
+  padding: 30px;
+  background-color: #E5E5E5;
+  min-height: calc(100vh - 70px);
+}
